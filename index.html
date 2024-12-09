@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css"/>
+    <link rel="stylesheet" href="/styles/home.style.css"/>
+    <title>Louvanne - portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Gallery</a></li>
+                <li><a href="/about">About the artist</a></li>
+                <li><a href="/contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="hero-business-card">
+            <div class="business-card"></div>
+        </div>
+        <div id="feature-carousel"></div>
+        <div id="gallery">
+            <div id="gallery-buttons">
+                <button id="art-gallery-button">Art</button>
+                <button id="project-gallery-button">Projects</button>
+                <button id="writing-gallery-button">Writing</button>
+            </div>
+            <div id="art-gallery" >
+            </div>
+            <div id="writing-gallery">
+            </div>
+            <div id="project-gallery">
+            </div>
+        </div>
+        <div id="art-modal" >
+            <div class="art-modal-container">
+                <div id="art-modal-next" onclick="nextModal()">></div>
+                <div id="art-modal-previous" onclick="previousModal()"><</div>
+                <img id="art-modal-image"/>
+                <div class="art-modal-content">
+                    <h1 id="art-modal-title"></h1>
+                    <p id="art-modal-text"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="/">Gallery</a></li>
+            <li><a href="/about">About the artist</a></li>
+            <li><a href="/contact">Contact me</a></li>
+        </ul>
+        <div class="social-icons" aria-label="social media links">
+            <a href=""><img src="/assets/instagram.png" alt="Icon for Instagram website"></a>
+            <a href=""><img src="/assets/reddit.png" alt="Icon for Reddit website"></a>
+            <a href=""><img src="/assets/twitter.png" alt="Icon for Twitter website"></a>
+            <!-- <a href=""><img src="/assets/artstation.png" alt="Icon for Artstation website"></a> -->
+        </div>
+        <small class="copyright">&copy; Louvanne - 2024</small>
+    </footer>
+    <script src="js/gallery.js" defer></script>
+</body>
+</html>
