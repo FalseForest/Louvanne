@@ -17,6 +17,7 @@
 
 
 body {
+    background-color: #422D67;
     position: relative;
     background-image: url('/Louvanne/assets/background_4.JPG');
     background-repeat: no-repeat;
@@ -58,7 +59,7 @@ article.about-article {
 
 footer {
     background-color: var(--primary-color);
-    width: 100%;
+    width: 100vw;
     position: relative;
     bottom: 0;
     height: var(--footer-height);
@@ -78,8 +79,7 @@ footer ul {
 footer .social-icons {
     position: absolute;
     top: 20px;
-    left: 50%;
-    transform: translate(-50%);
+    right: 20px;
 }
 
 .social-icons a {

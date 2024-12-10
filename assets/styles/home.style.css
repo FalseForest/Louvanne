@@ -232,7 +232,24 @@ div.feature-item>img {
 }
 
 .writing-item {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
 
+.writing-item img {
+    height: 400px;
+    object-fit: contain;
+}
+
+.typewriter {
+    display: flex;
+    justify-content: center;
+}
+.typewriter img{
+    height: 700px;
+    margin-top: 200px;
+    object-fit: contain;
 }
 
 .project-item {
@@ -254,6 +271,7 @@ div.feature-item>img {
     max-height: 300px;
     object-fit: cover;
 }
+
 
 @media (max-width: 800px) {
     div.art-item {
