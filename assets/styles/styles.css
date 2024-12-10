@@ -28,6 +28,10 @@ header {
     width: 100%;
 }
 
+pre {
+    white-space: pre-wrap;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
