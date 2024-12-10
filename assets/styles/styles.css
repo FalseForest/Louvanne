@@ -56,6 +56,16 @@ article.about-article {
     max-width: 800px;
 }
 
+article.writing {
+    max-width: 800px;
+    margin: 100px auto;
+}
+
+article.writing h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 
 footer {
     background-color: var(--primary-color);
