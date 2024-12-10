@@ -17,7 +17,7 @@ body {
     aspect-ratio:  9/5;
     background-color: black;
     border-radius: 12px;
-    background-image: url('/assets/business_card.JPG');
+    background-image: url('/Louvanne/assets/business_card.JPG');
     background-size: contain;
     -webkit-box-shadow: 0px 0px 15px 5px #FFFFFF; 
     box-shadow: 0px 0px 20px 5px #FFFFFF;
@@ -199,7 +199,7 @@ div.project-item {
 
 .carousel-background-image {
     position: absolute;
-    background-image: url('/assets/centipede.png');
+    background-image: url('/Louvanne/assets/centipede.png');
     width: 100vw;
     height: 300px;
     top: 50%;
