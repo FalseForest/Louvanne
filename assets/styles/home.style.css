@@ -136,6 +136,10 @@ div.project-item {
     font-size: 16pt;
 }
 
+#art-modal-content {
+    max-width: 50%;
+}
+
 #art-modal.active{
     display: block;
 }
@@ -163,7 +167,7 @@ div.project-item {
 #art-modal-image {
     object-fit: contain;
     max-height: 400px;
-    max-width: 100%;
+    max-width: 40%;
 }
 
 #art-modal-next, #art-modal-previous {
