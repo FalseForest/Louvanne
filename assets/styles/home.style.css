@@ -147,6 +147,40 @@ div.project-item {
 }
 
 
+#feature-carousel {
+    padding: 100px 0;
+    position: relative;
+}
+
+.carousel-background-image {
+    position: absolute;
+    background-image: url('/assets/centipede.png');
+    width: 100vw;
+    height: 300px;
+    top: 50%;
+    background-size: contain;
+    filter: invert();
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.carousel-images {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+div.feature-item {
+}
+
+div.feature-item>img {
+    max-height: 500px;
+    max-width: 500px;
+    object-fit: contain;
+    border: 5px solid #fff;
+    border-radius: 8px;
+}
+
 @media (max-width: 800px) {
     div.art-item {
         width: 400px;
