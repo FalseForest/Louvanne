@@ -47,7 +47,7 @@ img.hero-about-image {
     width: 100%;
     height: calc(40vh + 10vw);
     object-fit: cover;
-    object-position: left top ;
+    object-position: left center;
 }
 
 article.about-article {
