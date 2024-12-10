@@ -235,6 +235,30 @@ div.feature-item>img {
     border-radius: 8px;
 }
 
+.writing-item {
+
+}
+
+.project-item {
+    background-color: #9F5A9B;
+    display: flex;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.project-item h1 {
+    text-align: center;
+    flex-grow: 1;
+    padding: 1em;
+    color: white;
+}
+
+.project-item img {
+    max-width: 50%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
 @media (max-width: 800px) {
     div.art-item {
         width: 400px;

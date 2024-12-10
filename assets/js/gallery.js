@@ -125,29 +125,11 @@ const artworks = [
     }
 ]
 const writings = [
-    {
-        imgUrl: '',
-        title: '1',
-        description: 'description'
-    },
-    {
-        imgUrl: '',
-        title: '2',
-        description: 'description 2'
-    }
+
 ]
 
 const projects = [
-    {
-        imgUrl: '',
-        title: '1',
-        description: 'description'
-    },
-    {
-        imgUrl: '',
-        title: '2',
-        description: 'description 2'
-    }
+
 ]
 
 
