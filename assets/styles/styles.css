@@ -59,6 +59,7 @@ article.about-article {
 article.writing {
     max-width: 800px;
     margin: 100px auto;
+    margin-bottom: 400px;
 }
 
 article.writing h1 {
