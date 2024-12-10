@@ -72,12 +72,27 @@ div.project-item {
 
 #art-modal {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
     top: 0;
     bottom: 0;
     width: 100vw;
     z-index: 3;
     display: none;
+}
+
+.art-modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#art-modal-close {
+    cursor: pointer;
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font-size: 16pt;
 }
 
 #art-modal.active{
