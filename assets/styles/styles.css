@@ -1,6 +1,5 @@
-
 :root {
-    --primary-color: #9F5A9B;
+    --primary-color: #422D67;
     --secondary-color: #262228;
     --accent-color: #FCE040;
     --background-color: #453758;
@@ -81,6 +80,18 @@ footer .social-icons {
     top: 20px;
     left: 50%;
     transform: translate(-50%);
+}
+
+.social-icons a {
+    margin: 10px;
+    filter: brightness(30);
+    transform: scale(1);
+    transition: 200ms ease-in-out;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.1);
+    transition: 200ms ease-in-out;
 }
 
 small.copyright {
