@@ -31,7 +31,7 @@ const artworks = [
     {
         imgUrl: 'inktober_2024.JPG',
         title: 'Inktober day 11: snacks',
-        description: 'part of inktober 2024\npart of the bedazzled heart universe'
+        description: `part of <a href="/Louvanne/projects/inktober.html">inktober 2024</a>\npart of the bedazzled heart universe`
     },
     {
         imgUrl: 'undead_knight.JPG',
@@ -247,7 +247,7 @@ function openArtModal(index) {
     const artwork = artworks[index];
     artModalImage.src = 'assets/artworks/' + artwork.imgUrl;
     artModalTitle.innerText = artwork.title;
-    artModalText.innerText = artwork.description;
+    artModalText.innerHTML = artwork.description;
 }
 
 function closeModal() {
