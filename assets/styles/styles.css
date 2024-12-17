@@ -52,7 +52,7 @@ img.hero-about-image {
     width: 100%;
     height: calc(40vh + 10vw);
     object-fit: cover;
-    object-position: top;
+    object-position: 0 -150px;
 }
 
 article.about-article {
@@ -130,6 +130,11 @@ small.copyright {
     footer {
         padding-top: 80px;
         height: auto;
+    }
+
+
+    img.hero-about-image {
+    object-position: center;
     }
 
 }
