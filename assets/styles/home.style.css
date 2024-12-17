@@ -92,6 +92,7 @@
 
 #project-gallery a {
     text-decoration: none;
+    max-width: 90%;
 }
 
 #art-gallery.active, #writing-gallery.active, #project-gallery.active {
@@ -113,10 +114,11 @@ div.art-item:hover {
     transition: 400ms ease-in-out;
 }
 
+
+
 div.project-item {
     height: 300px;
     width: 800px;
-    max-width: 90%;
     margin: 2em;
     cursor: pointer;
     transition: 400ms ease-in-out;
