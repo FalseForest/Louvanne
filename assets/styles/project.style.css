@@ -17,23 +17,26 @@ main {
 }
 
 section img {
-    width: 400px;
+    width: 500px;
     max-width: calc(100% - 2rem);
     margin: 1rem;
 }
 
 section {
-    max-width: 1200px;
     display: flex;
     margin: 80px 0;
     align-items: center;
     gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
 section p {
     font-size: 20pt;
     line-height: 32pt;
+    width: 600px;
+    max-width: 100%;
 }
 
 
