@@ -105,6 +105,12 @@ div.art-item {
     background-size: cover;
     background-position: center;
     cursor: pointer;
+    transition: 400ms ease-in-out;
+}
+
+div.art-item:hover {
+    transform: scale(1.05);
+    transition: 400ms ease-in-out;
 }
 
 div.project-item {
@@ -113,6 +119,12 @@ div.project-item {
     max-width: 90%;
     margin: 2em;
     cursor: pointer;
+    transition: 400ms ease-in-out;
+}
+
+div.project-item:hover {
+    transform: scale(1.05);
+    transition: 400ms ease-in-out;
 }
 
 #art-modal {
@@ -243,6 +255,12 @@ div.feature-item>img {
     display: flex;
     justify-content: center;
     cursor: pointer;
+    transition: 400ms ease-in-out;
+}
+
+.writing-item:hover {
+    transform: scale(1.05);
+    transition: 400ms ease-in-out;
 }
 
 .writing-item img {
