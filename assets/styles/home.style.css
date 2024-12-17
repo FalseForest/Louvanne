@@ -90,6 +90,10 @@
     display: none;
 }
 
+#project-gallery a {
+    text-decoration: none;
+}
+
 #art-gallery.active, #writing-gallery.active, #project-gallery.active {
     display: flex;
 }
